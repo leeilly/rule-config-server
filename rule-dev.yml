@@ -1,15 +1,14 @@
-tablemapping:
-  table:
+table:
     orgName: test1
     targetName: target_test1
 
-  columns:
-    -
-      orgName: col1
-      targetName: target_col1
-    -
-      orgName: col2
-      targetName: target_col2
-    -
-      orgName: col3
-      targetName: target_col3
+columns:
+  -
+    orgName: col1
+    targetName: target_col1
+  -
+    orgName: col2
+    targetName: target_col2
+  -
+    orgName: col3
+    targetName: target_col3
