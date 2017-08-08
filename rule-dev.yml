@@ -1,11 +1,11 @@
 tablemapping:
   table:
     orgName: KAFKA_TEST_1
-    targetName: KAFKA_TEST1_TARGET
+    targetName: KAFKA_TEST_TARGET
 
   columns:
     ID: target_ID
     CH: target_CH
     DTTM: target_DTTM
     TEST: target_TEST
-    ADD: ADD_VAL
+    ADD: target_ADD
