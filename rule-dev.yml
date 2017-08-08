@@ -1,9 +1,10 @@
 tablemapping:
   table:
-    orgName: SKCPDBA.KAFKA_TEST_1
-    targetName: MPDB.KAFKA_TEST_TARGET
+    orgName: KAFKA_TEST_1
+    targetName: KAFKA_TEST_TARGET
 
   columns:
     ID: target_ID
     CH: target_CH
     DTTM: target_DTTM
+    TEST: target_TEST
