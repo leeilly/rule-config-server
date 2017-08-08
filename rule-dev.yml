@@ -4,6 +4,9 @@ tablemapping:
     targetName: target_test1
 
   columns:
-    col1: target_col1
-    col2: target_col2
-    col3: target_col3
+	-
+    		col1: target_col1
+    	-
+		col2: target_col2
+    	-
+		col3: target_col3
