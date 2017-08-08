@@ -1,14 +1,9 @@
-table:
-    orgName: test1
-    targetName: target_test1
+tablemapping:
+  table:
+    orgName: SKCPDBA.KAFKA_TEST_1
+    targetName: MPDB.KAFKA_TEST_TARGET
 
-columns:
-  -
-    orgName: col1
-    targetName: target_col1
-  -
-    orgName: col2
-    targetName: target_col2
-  -
-    orgName: col3
-    targetName: target_col3
+  columns:
+    ID: target_ID
+    CH: target_CH
+    DTTM: target_DTTM
