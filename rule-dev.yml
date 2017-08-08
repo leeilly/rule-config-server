@@ -8,3 +8,4 @@ tablemapping:
     CH: target_CH
     DTTM: target_DTTM
     TEST: target_TEST
+    ADD: ADD_VAL
