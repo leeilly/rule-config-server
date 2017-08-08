@@ -5,8 +5,11 @@ tablemapping:
 
   columns:
     -
-      col1: target_col1
+      orgName: col1
+      targetName: target_col1
     -
-      col2: target_col2
+      orgName: col2
+      targetName: target_col2
     -
-      col3: target_col3
+      orgName: col3
+      targetName: target_col3
