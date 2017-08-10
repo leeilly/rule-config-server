@@ -16,7 +16,7 @@ tablemapping:
         ,column: col1
         ,compareValue: '03'
         ,op: eq
-        ,result: 
+        ,compareResult: 
         {
           trueValue: table_b.col2
           ,falseValue: table_a.col2 
