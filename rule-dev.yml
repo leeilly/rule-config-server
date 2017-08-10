@@ -8,4 +8,3 @@ tablemapping:
   #dml: I|U|D  
   columns:
     {org: col1, target: target_col1, dml: U, condition: col2 eq '02'} 
-    {org: col2, target: target_col2} 
