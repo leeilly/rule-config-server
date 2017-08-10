@@ -2,9 +2,7 @@ tablemapping:
   table:
     orgName: table_a
     targetName: target_table_a 
-    dependencies: table_b
-
-  #dml: I|U|D  
+    
   columns: 
     -
       orgName: col1
@@ -14,4 +12,4 @@ tablemapping:
    -    
      orgName: col2
      targetName: target_col2
-   
+     dmlType: U  
