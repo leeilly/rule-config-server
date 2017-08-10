@@ -6,6 +6,7 @@ tablemapping:
 
   #dml: I|U|D  
   columns: 
+    -
     {
       orgName: col1
       ,targetName: target_col1
@@ -23,8 +24,8 @@ tablemapping:
         } 
       }
     }
-   ,columns: 
-    {
-      orgName: col2
-      ,targetName: target_col2
-    }
+   -    
+   {
+     orgName: col2
+     ,targetName: target_col2
+   }
