@@ -1,21 +1,21 @@
 tablemapping:
   table:
-    org: table_a
-    target: target_table_a 
+    orgName: table_a
+    targetName: target_table_a 
     dependencies: table_b
 
   #dml: I|U|D  
   columns: 
     {
-      org: col1
-      ,target: target_col1
-      ,dml: U
+      orgName: col1
+      ,targetName: target_col1
+      ,dmlType: U
       ,condition: 
       {
         table: table_b
         ,column: col1
         ,compareValue: '03'
-        ,op: eq
+        ,operation: eq
         ,compareResult: 
         {
           trueValue: table_b.col2
