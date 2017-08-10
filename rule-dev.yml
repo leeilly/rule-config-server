@@ -2,14 +2,8 @@ tablemapping:
   table:
     orgName: table_a
     targetName: target_table_a 
-    
   columns: 
     -
       orgName: col1
       targetName: target_col1
       dmlType: U
-      
-   -    
-     orgName: col2
-     targetName: target_col2
-     dmlType: U  
