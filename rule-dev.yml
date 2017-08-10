@@ -25,8 +25,8 @@ tablemapping:
           compareValue: '03'
           operation: eq
           compareResult: 
-              trueValue: table_b.col3
-              falseValue: table_a.col3 
+              trueValue: 
+              falseValue: 
 
 
 
