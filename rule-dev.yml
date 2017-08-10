@@ -14,5 +14,19 @@ tablemapping:
           operation: eq
           compareResult: 
               trueValue: table_b.col2
-              falseValue: table_a.col2 
+              falseValue: table_a.col2
+   -
+      orgName: col2
+      targetName: target_col2
+      dmlType:  
+      condition: 
+          table: 
+          column: 
+          compareValue: 
+          operation: 
+          compareResult: 
+              trueValue: 
+              falseValue: 
+
+
 
