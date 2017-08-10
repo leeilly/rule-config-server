@@ -23,7 +23,7 @@ tablemapping:
         } 
       }
     }
-    columns: 
+   ,columns: 
     {
       orgName: col2
       ,targetName: target_col2
