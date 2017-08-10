@@ -24,9 +24,6 @@ tablemapping:
           column: col2
           compareValue: '03'
           operation: eq
-          compareResult: 
-              trueValue: 
-              falseValue: 
 
 
 
