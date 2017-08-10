@@ -11,17 +11,13 @@ tablemapping:
       targetName: target_col1
       dmlType: U
       condition: 
-      {
-        table: table_b
-        ,column: col1
-        ,compareValue: '03'
-        ,operation: eq
-        ,compareResult: 
-        {
-          trueValue: table_b.col2
-          ,falseValue: table_a.col2 
-        } 
-      }
+          table: table_b
+          column: col1
+          compareValue: '03'
+          operation: eq
+          compareResult: 
+              trueValue: table_b.col2
+              falseValue: table_a.col2 
    -    
      orgName: col2
      targetName: target_col2
