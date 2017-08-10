@@ -7,11 +7,10 @@ tablemapping:
   #dml: I|U|D  
   columns: 
     -
-    {
       orgName: col1
-      ,targetName: target_col1
-      ,dmlType: U
-      ,condition: 
+      targetName: target_col1
+      dmlType: U
+      condition: 
       {
         table: table_b
         ,column: col1
@@ -23,9 +22,7 @@ tablemapping:
           ,falseValue: table_a.col2 
         } 
       }
-    }
    -    
-   {
      orgName: col2
-     ,targetName: target_col2
-   }
+     targetName: target_col2
+   
