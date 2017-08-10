@@ -16,17 +16,17 @@ tablemapping:
               trueValue: table_b.col2
               falseValue: table_a.col2
     -
-      orgName: col1
-      targetName: target_col1
+      orgName: col2
+      targetName: target_col2
       dmlType: U 
       condition: 
           table: table_b
-          column: col1
+          column: col2
           compareValue: '03'
           operation: eq
           compareResult: 
-              trueValue: table_b.col2
-              falseValue: table_a.col2 
+              trueValue: table_b.col3
+              falseValue: table_a.col3 
 
 
 
