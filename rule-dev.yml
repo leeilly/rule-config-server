@@ -18,12 +18,6 @@ tablemapping:
     -
       orgName: col2
       targetName: target_col2
-      dmlType: U 
-      condition: 
-          table: table_b
-          column: col2
-          compareValue: '03'
-          operation: eq
 
 
 
