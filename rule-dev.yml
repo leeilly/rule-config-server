@@ -2,22 +2,10 @@ tablemapping:
   table:
     org: table_a
     target: target_table_a 
+    dependencies: table_b
 
-  columns:  
-  {
-    org: col1
-    ,target: target_col1
-    ,dml: U
-    ,condition:
-    {
-      table: table_b
-      ,column: col1
-      ,compareValue: '03'
-      ,op: eq
-      ,trueResult: table_b.col2
-      ,falseResult: table_a.col2
-    }
-  }
- 
+  #dml: I|U|D  
+  columns: 
+    {org: col1, target: target_col1, dml: U, condition: {table: table_b, column: col1, compareValue: '03', op: eq, trueResult: table_b.col2, falseResult: table_a.col2 } 
 
 
