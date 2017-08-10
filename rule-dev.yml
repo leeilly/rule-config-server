@@ -18,8 +18,8 @@ tablemapping:
         ,op: eq
         ,result: 
         {
-          true: table_b.col2
-          ,false: table_a.col2 
+          trueValue: table_b.col2
+          ,falseValue: table_a.col2 
         } 
       }
     }
