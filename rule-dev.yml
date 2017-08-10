@@ -2,6 +2,7 @@ tablemapping:
   table:
     orgName: table_a
     targetName: target_table_a 
+    key: col1
   columns: 
     -
       orgName: col1
