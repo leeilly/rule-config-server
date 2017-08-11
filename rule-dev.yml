@@ -13,8 +13,8 @@ tablemapping:
           column: col1
           compareValue: '03'
           operation: eq
-          trueValue: table_b.col2
-          falseValue: table_a.col2
+          trueResultValue: table_b.col2
+          falseResultValue: table_a.col2
     -
       orgName: col2
       targetName: target_col2
