@@ -1,7 +1,7 @@
 tablemapping:
   table:
     orgName: table_a
-    targetName: target_table_a 
+    targetName: target_table_bb
     key: col1
   columns: 
     -
